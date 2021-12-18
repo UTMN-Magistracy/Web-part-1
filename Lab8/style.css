@@ -1,0 +1,44 @@
+fieldset{
+    width: 100px;
+    margin-left: 60px;
+}
+
+h1 {
+    color: #444488;
+}
+
+.secondblock{
+    margin-top: -144px;
+    margin-left: 260px;
+}
+
+#positionlabel{
+    margin-left: 60px;
+}
+#positionCount{
+    margin-top: 50px;
+    width: 70px;
+    margin-left: 30px;
+}
+
+textarea{
+    width: 320px;
+    resize: none;
+    margin-left: 60px;
+}
+
+form{
+    margin: 0 auto;
+    width: 450px;
+    background: #F2F0F2;
+}
+
+h1{
+    text-align: center;
+}
+
+#web{
+    margin-left: 285px;
+    position: absolute;
+    margin-top: -70px;
+}

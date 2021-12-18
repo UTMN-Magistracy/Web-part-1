@@ -1,0 +1,16 @@
+form{
+    margin: 0 auto;
+    width: 450px;
+    background: #F2F0F2;
+}
+
+img{
+    position: absolute;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}

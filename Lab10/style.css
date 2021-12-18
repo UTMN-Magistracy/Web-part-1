@@ -1,0 +1,33 @@
+form{
+    margin: 0 auto;
+    width: 505px;
+    padding: 10px;
+    background: #66cca9;
+}
+
+textarea{
+    width: 450px;
+    height: 30px;
+
+    resize: none;
+}
+
+input{
+    margin-left: 20px;
+}
+
+.label_margin{
+    margin-left: 15px;
+}
+
+#text_pos{
+    margin-left: 115px;
+}
+
+.button{
+    margin-left: 100px;
+}
+
+h1 {
+    text-align: center;
+}

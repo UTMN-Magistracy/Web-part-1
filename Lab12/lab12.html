@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 12</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <form name="main_date">
+      <h1>Работа с датами</h1>
+	 <div class="inline_div ">
+		  <div>
+			  <fieldset>
+				<legend>Определить</legend>
+				<input type="radio" name="find_value">
+				<label>Количество дней</label><p>
+				<input type="radio" name="find_value">
+				<label>Количество выходных</label><p>
+				<input type="radio" name="find_value">
+				<label>Количество рабочих дней</label><p>
+				<input type="radio" name="find_value">
+				<label>Количество полных недель</label><p>
+				<input type="radio" name="find_value">
+				<label>Количество полных месяцев</label>
+			  </fieldset>
+		  </div>
+		 <div class="left_div">
+			 <label>Начало периода</label>
+			 <p><input type="text" onkeypress="checking(this)" name="in_date">
+
+			 <p><label>Конец периода</label>
+			 <p><input type="date" name="jdate">
+		 </div>
+	 </div>
+      <div>
+      	<label>Результат</label>  
+      	<input type="text" readonly name="final_value"> 
+      	<p><input type="button" id="custom_button" onclick="result()" value="Вычислить" name="button_value">
+      </div>
+ </form>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

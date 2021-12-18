@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form name="photo">
+
+        <h1>Печать фотографий</h1>
+		<fieldset>
+			<legend>Формат</legend>
+		    <input type="radio" name="size">
+		    <label>9x12</label>
+            <p><input type="radio" name="size">
+            <label>10x15</label>
+            <p><input type="radio" name="size">
+            <label>18x24</label>
+        </fieldset>
+
+		<fieldset class="secondblock">
+			<legend>Бумага</legend>
+		    <input type="radio" name="paper">
+		    <label>Матовая</label>
+            <p><input type="radio" name="paper">
+            <label>Глянцевая</label>
+        </fieldset>        
+        
+        <label id="positionlabel">Количество</label>
+        <input type="text" onInput="checking2(); checking3()" onKeyPress = "checking()" name="countPhoto" id="positionCount"><p>
+        <input type="button" disabled="true" onClick="result()" value="Вычислить" id="web" name="web">
+        <textarea id="question" rows="6" readonly name="textPO"></textarea><p>
+	</form>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

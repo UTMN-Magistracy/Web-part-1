@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="menu">
+
+        <h1>Сделайте заказ</h1>
+					
+		    <input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+		    <label>Фаршированная форель</label>
+
+		    <img src="images/12775.jpg" hidden>
+            <img src="images/kak_.jpg" hidden>
+            <img src="images/gr_syp_gribnoy_1234.jpg" hidden>
+            <img src="images/maxresdefault.jpg" hidden>
+            <img src="images/386-image-6.jpg" hidden>
+            <img src="images/moloko-vanil-1000x1340.jpg" hidden>
+            <img src="images/Грейпфрутовый.jpg" hidden>
+                                            
+            <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+            <label>Телятина под соусом</label>
+
+            <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+            <label>Крем-суп из шампиньонов</label>
+
+		    <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+		    <label>Рулет со шпинатом</label>
+
+            <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+            <label>Пицца Гавайская</label>
+                  
+            <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+            <label>Ванильный коктейль</label>
+
+            <p><input type="checkbox" onclick="sum(); images_view(); checking()" name="food" value="food">
+            <label>Напиток Грейпфрут</label>
+
+            <p><textarea id="question" rows="6" readonly name="textPO"></textarea><p>
+
+            <input type="button" disabled="true" onClick="text_button()" value="Заказать" id="web" name="web">
+     </form>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

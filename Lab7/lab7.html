@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form name="bank">		
+            <h1>Вклад в банке</h1>
+            
+            <hr>
+            <p><label>Сумма (руб.):</label>
+            <input type="text" onInput="checkButton(); checking1(); checking()" name="sum" >
+
+            <p><label>Срок (мес.):</label>
+            <input type="text" onInput="checkButton(); checking1(); checking()"  name="time" id="time">
+
+            <p><label>Ставка (%):</label>
+            <input type="text" onInput="checkButton(); checking1(); checking()"  name="percent" id="percent">
+
+            <p><label>Общая сумма</label>
+            <input type="text" name="totalSum2">
+
+            <input disabled="true" type="button" onClick="totalSum1()" name="web" id="button" value="Вычислить!">
+            
+            <hr>
+	</form>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

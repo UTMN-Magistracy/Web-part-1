@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form name="amin">
+		<h1>Форма регистрации пользователей</h1>
+		<label>Фамилия</label>
+		<p><input type="text" onchange="checkSur(), buttonpls()" name="surname">
+
+		<p><label>Логин</label>
+        <p><input type="text" onchange="checkLog(), buttonpls()" name="login">
+
+        <p><label>Пароль</label>
+        <p><input type="password" onchange="checkPas(), buttonpls()" name="code">
+
+        <p><label>Подтвердите пароль</label>	
+        <p><input type="password" onchange="checkPas2(), buttonpls()"name="code2">
+
+        <p><label>Дата рождения</label>
+        <p><input type="text" onchange="checkDate(), buttonpls()" name="date">
+
+        <p><label>Телефон</label>
+        <p><input type="tel" onchange="checkTel(), buttonpls()" name="phone">
+
+        <p><label>ИНН</label>
+        <p><input type="text" onchange="checkInn(), buttonpls()" name="inn">
+        
+        <p><label>Пол</label>
+        <p><label>M</label><input type="radio" onchange="checkGender()" name="gender" checked>
+        <label>Ж</label><input type="radio" onchange="checkGender()" name="gender">
+
+        <p><input type="button" value="Отправить" name="final" disabled>
+        <input type="reset" name="">
+	</form>
+    <script src="script.js"></script>
+</body>
+</html>

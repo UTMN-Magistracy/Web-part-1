@@ -1,0 +1,33 @@
+
+h2 {
+    font-size: 14pt;
+    font-family: Times;
+    color: #0f1d60;
+    text-align: center;
+   }
+
+p {
+    font-size: 16pt;
+    color: #000000;  
+    margin-top: 0;
+   }
+
+.par {
+	text-align: right;
+	
+   }
+
+#pic {
+	margin: 10px;
+	width: 300px;
+	float: right;
+	
+   }
+
+
+#content {
+	width: 100%;
+	margin: 10px;
+    background: url("images/fon_01.gif") no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 11</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<form name="massiv">
+
+       <div class="begining">
+        <label>Число элементов в массиве</label>
+        <input type="text" onkeypress="checking(this)" name="value_array" class="text1">
+        <input type="button" name="create_array" value="Создать массив" onclick="CreateMassiv(-100,100); checking_onButton()" disabled>
+       </div>
+
+       <p><input type="text" name="org_array" readonly class="text2">
+
+		<fieldset class="fieldsets">
+			<legend>Определить</legend>
+
+		    <input type="checkbox" disabled="true" onchange="for_el()" name="value_el">
+		    <label>Минимальный элемент</label>
+		    <input type="text" readonly name="min_value" class="text1" style="margin-left: 20px">
+
+		    <p><input type="checkbox" disabled="true" onchange="for_el()" name="value_el">
+		    <label>Максимальный элемент</label>
+		    <input type="text" readonly name="min_value" class="text1" style="margin-left: 16px">
+		    
+		    <p><input type="checkbox" disabled="true" onchange="for_el()" name="value_el">
+		    <label>Сумма элементов</label>
+		    <input type="text" readonly name="min_value" class="text1" style="margin-left: 60px">		    
+
+		    <p><input type="checkbox" disabled="true" onchange="for_el()" name="value_el">
+		    <label>Число отрицательных</label>
+		    <input type="text" readonly name="min_value" class="text1" style="margin-left: 30px">
+
+		    <p><input type="checkbox" disabled="true" onchange="for_el()" name="value_el">
+		    <label>Число неотрицательных</label>
+		    <input type="text" readonly name="min_value" class="text1" style="margin-left: 15px">	
+        </fieldset>
+
+        <p><input type="text" name="sort_array" readonly class="text2"> 
+
+        <div class="button1">
+          <p><input type="button" name="result" value="Вычислить" disabled="true" onclick="sorting()">
+        </div>
+
+		<fieldset class="fieldsets" style="margin-top: -322px; margin-left: 290px;">
+		    <legend>Сортировать</legend>
+
+		    <input type="radio" disabled="true" onchange="check_forButton()" name="sortt">
+		    <label>По возрастанию</label>
+
+            <p><input type="radio" disabled="true" onchange="check_forButton()" name="sortt">
+            <label>По убыванию</label>
+
+            <p><input type="radio" disabled="true" onchange="check_forButton()" name="sortt">
+            <label>Без сортировки</label>
+        </fieldset>
+
+	</form>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

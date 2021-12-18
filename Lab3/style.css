@@ -1,0 +1,122 @@
+body{
+	background: #98FF66;
+}
+
+.glavLay{
+	background: #98FF66;
+	width: 700pt;
+	position: relative;
+	
+}
+
+.cloud1{
+	text-align: justify; 
+	border: 4px solid #CC6601;
+	border-top-color: #659B61;
+	border-bottom-color: #659B61;
+	margin-top: 34px;
+	padding-top: 70px;
+	padding-left: 25px;
+	padding-right: 80px;
+	position: absolute;
+	background: #FFCC44;
+	width: 930px;
+	height: 490px;
+	z-index: 1;
+
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+.que{
+	margin-top: 25px;
+	margin-right: 150px;
+	text-align: justify; /*спросить про текст*/
+
+}
+
+
+.textCloud1{
+	font-size: 15px;
+	
+}
+
+.colorCloud1{
+	color: #631A01; 
+}
+
+ol{
+  list-style-type: square;
+  text-align: left;
+}
+
+li{
+	margin-top: 10px;
+}
+
+
+.header1{
+	 box-shadow: inset 0 0 4px 1.5px #886F00, inset 0 0 5px 6px #F6690A, inset 0 0 0px 6px #F9CB78;
+     background: #F0F0F0;
+     padding-top: 20px;
+	 padding-bottom: 15px;
+	 padding-right: 30px; 
+	 padding-left: 31px;
+	 margin-left: 35px;
+	
+	 z-index: 2;
+	 position: absolute;
+
+     color: #01653D;
+     font-size: 30px;
+     font-family: Arial;
+     font-weight: bold;
+
+}
+
+.web{
+	color: #FF6600;
+}
+
+.cloud2{
+	border: 2px solid #CC6601;
+	z-index: 2;
+	position: absolute;
+	margin-left: 1015px;
+	margin-top: 100px;
+	background: #F0F0F0;
+	padding: 10px;
+	width: 200px;
+
+
+
+    color: #D2441F;
+    font-family: Verdana;
+}
+
+img{
+  border: 3px solid #CC6601;
+  z-index: 2;
+  position: absolute;
+  width: 400px;
+  margin-left: 880px;
+  margin-top: 270px; 
+}
+
+.cloud3{
+	outline: 5px outset #FD8D41;
+	z-index: 3;
+	position: absolute;
+	background: #F0F0F0;
+	margin-left: 1070px;
+    margin-top: 601px;
+    padding: 8px;
+
+    
+    font-family: Verdana; 
+}
+
+a{
+ color:#FD8D41;
+ text-decoration:none;
+}

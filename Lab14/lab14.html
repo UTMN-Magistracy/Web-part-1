@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div style="position: relative; margin: 0 auto; width:865px;">
+
+	 <div  style="position: absolute; width: 435px;" >
+        <img src="images/1.jpg" id="red" onmouseout="out()" class = "first">
+    </div>
+
+     <div style="position: absolute; width: 430px; margin-left: 435px;">
+        <img src="images/2.jpg" id="green" onmouseout="out()"class = "second">
+    </div>
+
+     <div  style="position: absolute; width: 429px; margin-top: 143px">
+        <img src="images/4.jpg" id="light" onmouseout="out()" class = "third">
+    </div>
+
+     <div  style=" position: absolute; width: 406px; margin-left: 429px; margin-top: 148px; ">
+        <img src="images/3.jpg" id="blue" onmouseout="out()" class = "forth">
+    </div>
+
+     <form name="cars" style="position: absolute; margin-top: 300px; margin-left: 300px;">
+             <p> <input type="text" id="inf_car" style="width: 286px">
+             <p><input type="button" onclick = "Start()" value="Запустить карусель">
+             <input type="button" onclick = "Finish()" value="Остановить карусель">
+     </form> 
+     <script src="script.js"></script>
+	</div>
+
+</body>
+</html>

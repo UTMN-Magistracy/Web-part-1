@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторная 10</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form name="calcul">
+		<h1>Валютный калькулятор</h1>
+
+		<div>
+			<label>Из</label>
+			<select name="out_value" onchange ="spring()" >
+				<option>Рубли</option>
+				<option>Евро</option>
+				<option>Доллар</option>
+				<option>Фунт стерлингов</option>
+				<option>Японская иена</option>
+				<option>Китайский юань</option>
+				<option>Украинская гривна</option>
+			</select>
+
+			<label class="label_margin">Курс</label>
+			<input type="text" name="course" id="text_pos" readonly><p>
+		</div>
+
+		<div>
+			<label>В</label>
+			<select name="in_value" onchange ="spring()">
+				<option>Рубли</option>
+				<option selected>Евро</option>
+				<option>Доллар</option>
+				<option>Фунт стерлингов</option>
+				<option>Японская иена</option>
+				<option>Китайский юань</option>
+				<option>Украинская гривна</option>
+			</select>
+
+			<label class="label_margin">Переводимая сумма</label>
+			<input type="text" oninput="checking(this)" name="your_sum"><p>
+		</div>
+
+        <label>Результат</label>
+        <textarea rows="6" readonly name="textPO"></textarea><p>	
+
+        <input type="button" onclick="total_sum()" value="Посчитать" name="in_sum" class="button">
+        <input type="reset" value="Очистить" class="button">
+	</form>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

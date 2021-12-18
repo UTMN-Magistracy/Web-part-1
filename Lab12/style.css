@@ -1,0 +1,28 @@
+form{
+    margin: 0 auto;
+    width: 570px;
+    height: 420px;
+    background:#F2F0F2;
+    padding: 10px;
+}
+
+fieldset {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#custom_button {
+    margin-left: 68px
+}
+
+.inline_div {
+    display: inline-flex;
+}
+
+.left_div {
+  margin-left: 50px;
+}
